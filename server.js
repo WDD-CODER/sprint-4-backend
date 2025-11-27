@@ -1,3 +1,5 @@
+import './instrument.js'
+import * as Sentry from "@sentry/node"
 import http from 'http'
 import path from 'path'
 import cors from 'cors'

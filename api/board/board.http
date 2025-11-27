@@ -1,5 +1,5 @@
 @BASE_URL_LOCAL = http://localhost:3030
-@BOARD_ID = 68fca460d9cdadbaab55abde
+@BOARD_ID = 69076dc01ce06c0e1b4897d3
 
 
 # Get Boards
@@ -8,7 +8,7 @@ GET  {{BASE_URL_LOCAL}}/api/Board
 ###  
 # Get Board By Id
 
-GET  {{BASE_URL_LOCAL}}/api/Board/{{BOARD_ID}}
+GET  {{BASE_URL_LOCAL}}/api/Board/{{BOARD_ID}}/undefined
 
 ### 
 
