@@ -1,3 +1,4 @@
+import * as Sentry from "@sentry/node"
 import { ObjectId } from 'mongodb'
 
 import { logger } from '../../services/logger.service.js'
@@ -50,24 +51,51 @@ async function query(filterBy = { txt: '' }) {
 }
 
 
+
+
 async function getById(boardId, filterBy = {}) {
+  try {
+    // Parent span for the whole function
+    return await Sentry.startSpan(
+      { op: "logic", name: "getById" },
+      async () => {
 
-    try {
-        const criteria = { _id: ObjectId.createFromHexString(boardId) }
+        // 1) DB span
+        const board = await Sentry.startSpan(
+          { op: "db", name: "db.find board by id" },
+          async () => {
+            const criteria = { _id: ObjectId.createFromHexString(boardId) };
+            const collection = await dbService.getCollection("board");
+            return await collection.findOne(criteria);
+          }
+        );
 
-        const collection = await dbService.getCollection('board')
-        const board = await collection.findOne(criteria)
+        // 2) createdAt
+        Sentry.startSpan(
+          { op: "logic", name: "compute createdAt" },
+          () => { board.createdAt = board._id.getTimestamp(); }
+        );
 
-        board.createdAt = board._id.getTimestamp()
+        // 3) filterOptions
+        const filterOptions = await Sentry.startSpan(
+          { op: "logic", name: "_getFilterOptions" },
+          () => _getFilterOptions(board)
+        );
 
-        const filterOptions = _getFilterOptions(board)
-        const filteredBoard = _getFilteredBoard(board, filterBy)
+        // 4) filteredBoard
+        const filteredBoard = await Sentry.startSpan(
+          { op: "logic", name: "_getFilteredBoard" },
+          () => _getFilteredBoard(board, filterBy)
+        );
 
-        return { board: filteredBoard, filterOptions }
-    } catch (err) {
-        logger.error(`while finding board ${boardId}`, err)
-        throw err
-    }
+        return { board: filteredBoard, filterOptions };
+      }
+    );
+
+  } catch (err) {
+    logger.error(`while finding board ${boardId}`, err);
+    throw err;
+  }
 }
 
 async function remove(boardId) {

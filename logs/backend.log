@@ -14655,3 +14655,200 @@
 15.11.2025, 15:16:57 - INFO - Setting socket.userId = 690b8e12d1dd346113aa9392 for socket [id: TjNv_tS9I1JeJkQGAAAB]
 15.11.2025, 15:16:58 - INFO - /api/board | GET |  | {} | 690b8e12d1dd346113aa9392
 15.11.2025, 15:16:58 - INFO - /api/board | GET |  | {} | 690b8e12d1dd346113aa9392
+27.11.2025, 17:20:07 - INFO - Server is running on port: 3030
+27.11.2025, 17:20:13 - INFO - Server is running on port: 3030
+27.11.2025, 17:21:14 - INFO - Server is running on port: 3030
+27.11.2025, 17:21:20 - INFO - Server is running on port: 3030
+27.11.2025, 17:23:07 - INFO - Server is running on port: 3030
+27.11.2025, 17:23:21 - INFO - /api/Board | GET |  | {}
+27.11.2025, 17:24:29 - INFO - /api/Board | GET |  | {}
+27.11.2025, 17:24:59 - INFO - /api/Board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"undefined"}
+27.11.2025, 17:26:50 - INFO - /api/Board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"undefined"}
+27.11.2025, 17:34:15 - INFO - New connected socket [id: LMXhWYHq8eT0psmBAAAB]
+27.11.2025, 17:34:17 - INFO - /api/board | GET |  | {}
+27.11.2025, 17:34:17 - INFO - /api/board | GET |  | {}
+27.11.2025, 17:34:18 - DEBUG - auth.service - signup with username: HappyGuest35, fullname: HappyGuest
+27.11.2025, 17:34:18 - DEBUG - auth.route - new account created: {"username":"HappyGuest35","password":"$2b$10$zF87XJ0Jf8q1gWzH0OcxW.N5s9LNJqNQk3YceSyaAIpet1U5/21lK","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","_id":"69286f7ae21ef8f565dd3190"}
+27.11.2025, 17:34:18 - DEBUG - auth.service - login with username: HappyGuest35
+27.11.2025, 17:34:18 - INFO - User signup: | {"_id":"69286f7ae21ef8f565dd3190","username":"HappyGuest35","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":null,"profession":null}
+27.11.2025, 17:34:18 - INFO - Setting socket.userId = 69286f7ae21ef8f565dd3190 for socket [id: LMXhWYHq8eT0psmBAAAB]
+27.11.2025, 17:34:35 - INFO - /api/board | GET |  | {"boardId":"69065a01bc16ab9e49914e5b","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 17:34:35 - INFO - /api/board | GET |  | {"boardId":"69065a01bc16ab9e49914e5b","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 17:34:35 - INFO - /api/board | GET |  | {"boardId":"69065a01bc16ab9e49914e5b","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:21:22 - INFO - /api/board | POST | {"title":"New Board","privacy":"main","managingType":"item","isStarred":false,"createdAt":1764264082347,"priorities":[{"id":"critical","txt":"Critical","cssVar":"--primary-text-color"},{"id":"high","txt":"High","cssVar":"--group-title-clr7"},{"id":"medium","txt":"Medium","cssVar":"--group-title-clr8"},{"id":"low","txt":"Low","cssVar":"--group-title-clr9"},{"id":"default","txt":"","cssVar":"--group-title-clr18"}],"statuses":[{"id":"done","txt":"Done","cssVar":"--group-title-clr2"},{"id":"working","txt":"Working on it","cssVar":" --group-title-clr16"},{"id":"stuck","txt":"Stuck","cssVar":"--group-title-clr12"},{"id":"default","txt":"Not Started","cssVar":"--group-title-clr18"}],"cmpOrder":["members","status","date"],"members":[],"groups":[{"id":"K1l203","title":"Group 1","createdAt":1764264082347,"isCollapsed":false,"tasks":[{"id":"bJSxMP","title":"Item 1","createdAt":1764264082347,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"default"},"updates":[]},{"id":"cGrYT1","title":"Item 2","createdAt":1764264082347,"memberIds":[],"priority":{"txt":"Default Label","cssVar":"--group-title-clr18","id":"default"},"status":{"txt":"Not Started","cssVar":"--group-title-clr18","id":"default"},"updates":[]}],"style":{"--group-color":"#c4c4c4"}}],"activities":[]} | {} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:21:22 - INFO - Broadcasting event: event-add-board | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:21:22 - INFO - Broadcast to all excluding user: 69286f7ae21ef8f565dd3190 | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:21:23 - INFO - /api/board | GET |  | {"boardId":"69288892e21ef8f565dd3191","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:21:22 - INFO - Socket is leaving topic 69065a01bc16ab9e49914e5b [id: LMXhWYHq8eT0psmBAAAB]
+27.11.2025, 19:21:23 - INFO - /api/board | GET |  | {"boardId":"69288892e21ef8f565dd3191","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:21:25 - INFO - Socket is leaving topic 69288892e21ef8f565dd3191 [id: LMXhWYHq8eT0psmBAAAB]
+27.11.2025, 19:21:26 - INFO - /api/board | GET |  | {"boardId":"69065a16bc16ab9e49914e5d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:21:26 - INFO - /api/board | GET |  | {"boardId":"69065a16bc16ab9e49914e5d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:21:27 - INFO - Socket is leaving topic 69065a16bc16ab9e49914e5d [id: LMXhWYHq8eT0psmBAAAB]
+27.11.2025, 19:21:27 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:21:28 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:21:53 - INFO - Assigning user: 69063fc75baa2f111fc6c3d3
+27.11.2025, 19:21:53 - INFO - No active socket for user: 69063fc75baa2f111fc6c3d3
+27.11.2025, 19:21:54 - INFO - Broadcasting event: event-update-task | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:21:54 - INFO - Broadcast to room 69076dc01ce06c0e1b4897d3 excluding user: 69286f7ae21ef8f565dd3190 | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:22:22 - INFO - Broadcasting event: event-update-board | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:22:22 - INFO - Broadcast to all excluding user: 69286f7ae21ef8f565dd3190 | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:22:32 - INFO - Broadcasting event: event-update-task | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:22:32 - INFO - Broadcast to room 69076dc01ce06c0e1b4897d3 excluding user: 69286f7ae21ef8f565dd3190 | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:23:53 - INFO - Socket is leaving topic 69076dc01ce06c0e1b4897d3 [id: LMXhWYHq8eT0psmBAAAB]
+27.11.2025, 19:23:53 - INFO - /api/board | GET |  | {"boardId":"69065b156da7639bcbfc9975","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:23:53 - INFO - /api/board | GET |  | {"boardId":"69065b156da7639bcbfc9975","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:23:55 - INFO - Socket is leaving topic 69065b156da7639bcbfc9975 [id: LMXhWYHq8eT0psmBAAAB]
+27.11.2025, 19:23:55 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:23:55 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:24:27 - INFO - /api/board | GET |  | {} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:24:33 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:24:34 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:24:34 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:37:39 - INFO - Server is running on port: 3030
+27.11.2025, 19:37:39 - INFO - New connected socket [id: hQ_rWvHkjXK5k49YAAAB]
+27.11.2025, 19:37:58 - INFO - Socket disconnected [id: undefined]
+27.11.2025, 19:37:59 - INFO - New connected socket [id: W3yVhhisKzApe3ZPAAAD]
+27.11.2025, 19:37:59 - INFO - Setting socket.userId = 69286f7ae21ef8f565dd3190 for socket [id: W3yVhhisKzApe3ZPAAAD]
+27.11.2025, 19:37:59 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:37:59 - INFO - /api/board | GET |  | {} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:38:01 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:38:01 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:38:36 - INFO - /api/board | GET |  | {} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:38:55 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:38:55 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:38:56 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:39:00 - INFO - /api/board | GET |  | {} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:39:07 - INFO - /api/board | GET |  | {"boardId":"69065ab46da7639bcbfc9974","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:39:07 - INFO - Socket is leaving topic 69076dc01ce06c0e1b4897d3 [id: W3yVhhisKzApe3ZPAAAD]
+27.11.2025, 19:39:08 - INFO - /api/board | GET |  | {"boardId":"69065ab46da7639bcbfc9974","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:39:08 - INFO - /api/board | GET |  | {"boardId":"69065ab46da7639bcbfc9974","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:39:39 - INFO - Socket is leaving topic 69065ab46da7639bcbfc9974 [id: W3yVhhisKzApe3ZPAAAD]
+27.11.2025, 19:39:39 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:39:40 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:41:53 - INFO - Server is running on port: 3030
+27.11.2025, 19:41:54 - INFO - New connected socket [id: -b1EUjF2QYGikOsaAAAB]
+27.11.2025, 19:42:06 - INFO - Server is running on port: 3030
+27.11.2025, 19:42:06 - INFO - New connected socket [id: oLQvsynBwpxNul90AAAB]
+27.11.2025, 19:42:14 - INFO - Server is running on port: 3030
+27.11.2025, 19:42:14 - INFO - New connected socket [id: Hg_svKhHRUqQN9MEAAAB]
+27.11.2025, 19:43:36 - INFO - Server is running on port: 3030
+27.11.2025, 19:43:41 - INFO - Server is running on port: 3030
+27.11.2025, 19:43:41 - INFO - New connected socket [id: c8bgP2oAKL_uAOynAAAB]
+27.11.2025, 19:43:46 - INFO - Server is running on port: 3030
+27.11.2025, 19:43:47 - INFO - New connected socket [id: JFenq9bSabmFXXmTAAAB]
+27.11.2025, 19:43:52 - INFO - /api/board | GET |  | {} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:43:52 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:43:52 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:43:52 - ERROR - Failed to get dashboard data | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:09 - INFO - Server is running on port: 3030
+27.11.2025, 19:45:10 - INFO - New connected socket [id: Gn4XY1fvHBbvLq18AAAB]
+27.11.2025, 19:45:12 - INFO - /api/board | GET |  | {"boardId":"69065a09bc16ab9e49914e5c","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - while finding board 69065a09bc16ab9e49914e5c | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - INFO - /api/board | GET |  | {"boardId":"69065a09bc16ab9e49914e5c","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - while finding board 69065a09bc16ab9e49914e5c | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - INFO - /api/board | GET |  | {"boardId":"69065a09bc16ab9e49914e5c","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - while finding board 69065a09bc16ab9e49914e5c | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:12 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:13 - INFO - /api/board | GET |  | {} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:13 - ERROR - Failed to get dashboard data | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:13 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:45:13 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:00 - INFO - Server is running on port: 3030
+27.11.2025, 19:46:01 - INFO - New connected socket [id: bLLR1p7sPqVfUXqyAAAB]
+27.11.2025, 19:46:02 - INFO - /api/board | GET |  | {"boardId":"69065a16bc16ab9e49914e5d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - while finding board 69065a16bc16ab9e49914e5d | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - INFO - /api/board | GET |  | {"boardId":"69065a16bc16ab9e49914e5d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - while finding board 69065a16bc16ab9e49914e5d | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - INFO - /api/board | GET |  | {"boardId":"69065a16bc16ab9e49914e5d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - while finding board 69065a16bc16ab9e49914e5d | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:02 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:05 - INFO - Socket is leaving topic 69065a16bc16ab9e49914e5d [id: bLLR1p7sPqVfUXqyAAAB]
+27.11.2025, 19:46:05 - INFO - /api/board | GET |  | {"boardId":"69065b156da7639bcbfc9975","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:05 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:05 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:05 - ERROR - while finding board 69065b156da7639bcbfc9975 | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:05 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:05 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:05 - INFO - /api/board | GET |  | {"boardId":"69065b156da7639bcbfc9975","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:05 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:05 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:05 - ERROR - while finding board 69065b156da7639bcbfc9975 | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:31 - INFO - Server is running on port: 3030
+27.11.2025, 19:46:31 - INFO - New connected socket [id: 33b4P_UBwmyIQ5-HAAAB]
+27.11.2025, 19:46:35 - INFO - /api/board | GET |  | {"boardId":"69065ab46da7639bcbfc9974","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:35 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:35 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:35 - ERROR - while finding board 69065ab46da7639bcbfc9974 | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:35 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:36 - INFO - /api/board | GET |  | {"boardId":"69065ab46da7639bcbfc9974","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:36 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:36 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:36 - ERROR - while finding board 69065ab46da7639bcbfc9974 | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:46:36 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:47:50 - INFO - Server is running on port: 3030
+27.11.2025, 19:47:51 - INFO - /api/board | GET |  | {"boardId":"69065a16bc16ab9e49914e5d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:47:51 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:47:51 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:47:51 - ERROR - while finding board 69065a16bc16ab9e49914e5d | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:47:51 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:47:51 - INFO - New connected socket [id: YbHP8pbcHSWePvjAAAAB]
+27.11.2025, 19:47:51 - INFO - /api/board | GET |  | {"boardId":"69065a16bc16ab9e49914e5d","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:47:51 - ERROR - Failed to get Mongo collection | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:47:51 - ERROR - Cannot Connect to DB | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:47:51 - ERROR - Failed to get board | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:47:51 - ERROR - while finding board 69065a16bc16ab9e49914e5d | MongoParseError: option keepalive is not supported | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:48:05 - INFO - Server is running on port: 3030
+27.11.2025, 19:48:05 - INFO - New connected socket [id: rsyAbXm-7DyTs5NbAAAB]
+27.11.2025, 19:48:07 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:48:08 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:48:08 - INFO - Socket is leaving topic 69076dc01ce06c0e1b4897d3 [id: rsyAbXm-7DyTs5NbAAAB]
+27.11.2025, 19:48:09 - INFO - /api/board | GET |  | {"boardId":"69065b156da7639bcbfc9975","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:48:09 - INFO - /api/board | GET |  | {"boardId":"69065b156da7639bcbfc9975","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:48:11 - INFO - /api/board | GET |  | {} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:50:24 - INFO - Server is running on port: 3030
+27.11.2025, 19:50:24 - INFO - New connected socket [id: AdF9ptKb-eo8e0qgAAAB]
+27.11.2025, 19:50:27 - INFO - /api/board | GET |  | {"boardId":"69065a09bc16ab9e49914e5c","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:50:29 - INFO - /api/board | GET |  | {"boardId":"69065a09bc16ab9e49914e5c","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:50:29 - INFO - /api/board | GET |  | {"boardId":"69065a09bc16ab9e49914e5c","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:50:30 - INFO - Socket is leaving topic 69065a09bc16ab9e49914e5c [id: AdF9ptKb-eo8e0qgAAAB]
+27.11.2025, 19:50:31 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:50:31 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:50:57 - INFO - /api/board | GET |  | {} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:51:07 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:51:07 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 19:51:08 - INFO - /api/board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"{\"byGroups\":[],\"byNames\":[],\"byStatuses\":[],\"byPriorities\":[],\"byMembers\":[],\"byDueDateOp\":[],\"byPerson\":\"\",\"sortBy\":\"\",\"dir\":-1}"} | 69286f7ae21ef8f565dd3190
+27.11.2025, 20:05:23 - INFO - Server is running on port: 3030
+27.11.2025, 20:05:23 - INFO - New connected socket [id: DDjIgr43OAGR0ZyWAAAB]
+27.11.2025, 20:10:04 - INFO - /api/Board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"undefined"}
+27.11.2025, 20:10:04 - ERROR - while finding board 69076dc01ce06c0e1b4897d3 | TypeError: Sentry.getCurrentHub is not a function
+27.11.2025, 20:10:04 - ERROR - Failed to get board | TypeError: Sentry.getCurrentHub is not a function
+27.11.2025, 20:15:09 - INFO - Server is running on port: 3030
+27.11.2025, 20:15:10 - INFO - New connected socket [id: eRvowNctM-iHLA8NAAAB]
+27.11.2025, 20:15:16 - INFO - /api/Board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"undefined"}
+27.11.2025, 20:18:20 - INFO - Server is running on port: 3030
+27.11.2025, 20:18:22 - INFO - /api/Board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"undefined"}
+27.11.2025, 20:18:23 - INFO - New connected socket [id: oFN0iAQIn5cIY7kdAAAB]
+27.11.2025, 20:24:07 - INFO - Server is running on port: 3030
+27.11.2025, 20:24:07 - INFO - New connected socket [id: gFe-r6TbjjYk7l0_AAAB]
+27.11.2025, 20:24:14 - INFO - /api/Board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"undefined"}
+27.11.2025, 20:26:42 - INFO - /api/Board | GET |  | {}
+27.11.2025, 20:27:35 - INFO - /api/Board | GET |  | {"boardId":"69076dc01ce06c0e1b4897d3","filterByStr":"undefined"}
+27.11.2025, 20:36:25 - INFO - Server is running on port: 3030
+27.11.2025, 20:36:25 - INFO - New connected socket [id: Iwdu3yI8jL9vj8dlAAAB]
