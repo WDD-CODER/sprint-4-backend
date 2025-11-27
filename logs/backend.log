@@ -14648,3 +14648,10 @@
 1.11.2025, 12:13:42 - INFO - New connected socket [id: xv4BFFiE2O9fG3LRAAAB]
 1.11.2025, 12:14:02 - INFO - Server is running on port: 3030
 1.11.2025, 12:14:03 - INFO - New connected socket [id: RK3PrazvZIrJH9PiAAAB]
+15.11.2025, 15:15:47 - INFO - Server is running on port: 3030
+15.11.2025, 15:16:41 - INFO - New connected socket [id: TjNv_tS9I1JeJkQGAAAB]
+15.11.2025, 15:16:57 - DEBUG - auth.service - login with username: HappyGuest24
+15.11.2025, 15:16:57 - INFO - User login:  | {"_id":"690b8e12d1dd346113aa9392","username":"HappyGuest24","fullname":"HappyGuest","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isAdmin":null,"profession":null}
+15.11.2025, 15:16:57 - INFO - Setting socket.userId = 690b8e12d1dd346113aa9392 for socket [id: TjNv_tS9I1JeJkQGAAAB]
+15.11.2025, 15:16:58 - INFO - /api/board | GET |  | {} | 690b8e12d1dd346113aa9392
+15.11.2025, 15:16:58 - INFO - /api/board | GET |  | {} | 690b8e12d1dd346113aa9392
